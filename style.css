@@ -1,0 +1,1550 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+    color:#4c4d4d ;
+}
+h2 {
+    color: #212529 IM !important;
+    font-size: 35px;
+    width: 100%;
+    padding-bottom:10px
+}
+.navbar{
+    background-color: transparent;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 12px 0;
+   color: white;
+
+}
+.navbar-logo{
+    width: 22%;
+
+}
+.navbar-logo a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+
+}
+.navbar-list{
+    width: 70%;
+
+}
+.navbar-list ul{
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    text-align: center;
+}
+
+.navbar-list ul li{
+    list-style: none;
+    font-size: 16px;
+    
+    
+}
+.navbar-list ul a {
+    color: white;
+    text-decoration: none;
+  
+}
+
+.navbar-list ul li a.home1{
+    color:#20c997 ;
+}
+.navbar-list ul li a:hover{
+    color:#20c997 ;
+
+}
+
+
+.header{
+    background-image: url(images/intro-bg.jpg);
+    height: 100vh;
+    background-size:cover;
+    overflow: auto;
+    margin-bottom: 30px;
+
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.7 );
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact{
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.contact span{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact h1{
+    font-size:60px ;
+    font-weight: 500;
+    padding: 20px 0;
+    color: white;
+}
+ .contact h1::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+ @keyframes typing{
+    5%{content: "I";}
+    10%{content: "I'";}
+    15%{content: "I'M";}
+    18%{content: "I'M a";}
+    20%{content: "I'M a ";}
+    25%{content: "I'M a D";}
+    30%{content: "I'M a De";}
+    35%{content: "I'M a Des";}
+    40%{content: "I'M a Desi";}
+    45%{content: "I'M a Desin";}
+    50%{content: "I'M a Desing";}
+    55%{content: "I'M a Desinge";}
+    60%{content: "I'M a Desinger";}
+    65%{content: "I'M a Desinger.";}
+   70%{content: "I'M a Desinge";}
+    75%{content: "I'M a Desing";}
+    80%{content: "I'M a Desin";}
+    83%{content: "I'M a Desi";}
+    86%{content: "I'M a Des";}
+    88%{content: "I'M a De";}
+    90%{content: "I'M a D";}
+    92%{content: "I'M a ";}
+    94%{content: "I'M a";}
+    95%{content: "I'M ";}
+    96%{content: "I'M";}
+    98%{content: "I'";}
+    100%{content: "I";}
+    
+} 
+.contact p{
+    font-size:25px;
+    font-weight: 500;
+    color: #f8f9fa;
+}
+
+.btnx .btn-s1{
+    background-color: transparent;
+    border-color: #20c997;
+    border-radius: 25px;
+    padding: 15px 40px;
+    border: #20c997 2px solid;
+
+}
+.btdo{
+    margin-top: 8%;
+
+}
+.btnx a{
+    text-decoration: none;
+    color: #20c997;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+ .btnx .btn-s1:hover {
+    color: #fff;
+    background-color: #20c997;
+
+}
+
+
+.conter{
+    width: 90%;
+    margin: auto;
+
+}
+
+
+.size1{  
+    height: 40%;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size1 p{
+    font-size: 120px;
+    text-align: center;
+    font-family: 600;
+    color: #eaeaea;
+  
+}
+
+.headerall1{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.headerall1 h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    margin-top: 17px;  
+    
+}
+.headerall1 h2::after{
+    content: "";
+    position: absolute;
+    top: 60px; 
+    left: 47%; 
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+
+}
+
+.KnowMeMoretext{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.KnowMeMoretext1{
+    width: 57%;
+}
+.KnowMeMoretext2{
+    width:30%;
+
+}
+.KnowMeMoretext1 h3 span{
+    color: #20c997;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+ .KnowMeMoretext1 h3{
+
+    color: #212529;
+    font-size: 25px;
+}
+
+.KnowMeMoretext1 p {
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 17px;
+}
+.text2 li{
+    list-style: none;
+    padding: 12px 0px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 18px;
+}
+.text2 li .label {
+    font-weight: 600;
+}
+.text2 .a{
+    width: 100%;
+
+}
+
+.btn .bbt-download{
+    background-color: #20c997;
+    border-radius: 25px;
+    width: 50%;
+    padding: 15px  10px;
+    margin-top: 20PX;
+
+
+
+}
+.btn-download{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 27px;
+
+}
+
+ .KnowMeMoretext2 .btn .bbt-download:hover{
+    background-color:#1baa80 ;
+
+}
+.knowbuttom{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+  padding: 20px 0px;
+}
+.kb1{
+    width: 23%;
+    border-right:1px solid #eaeaea ;
+    text-align: center;
+}
+.kb4{
+    width: 23%;
+    text-align: center;
+
+}
+.kb1 h2 , .kb4 h2  {
+    font-size: 50px;
+    color:#6c757d ;
+}
+.kb1 p ,.kb4 p {
+    font-size: 20px;
+    color: #7b8084;
+}
+
+.WhatIDo{
+    background-color: #f8f9fa;
+    
+
+}
+
+
+.size2{
+    
+    height: 40%;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.size2 p{
+    font-size: 120px;
+    text-align: center;
+    color: #eaeaea;
+    font-weight: 600;
+  
+}
+
+.headerall2{
+    background-color: rgba(0, 0,#dbe0e0, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.headerall2 h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    margin-top: 17px;  
+    
+}
+.headerall2 h2::after{
+    content: "";
+    position: absolute;
+    top: 60px; 
+    left: 47%; 
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+
+}
+
+.texticon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin-top: 7%; */
+    padding-bottom: 5%;
+}
+.WhatIDoicon1{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 2%;
+}
+.icon6{
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #20c997;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 3px gray;
+}
+.textleft{
+    width: 67%;
+}
+.textleft h3{
+    font-size: 20px;
+   color: #212529;
+   padding-bottom: 10px;
+}
+.textleft p{
+    color: #212529;
+    line-height: 1.5;
+}
+
+.size3{
+    
+    height: 40%;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size3 p{
+    font-size: 120px;
+    text-align: center;
+    color: #eaeaea;
+    font-weight: 600;
+  
+}
+
+.headerall3{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.headerall3 h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    margin-top: 17px;   
+    
+}
+.headerall3 h2::after{
+    content: "";
+    position: absolute;
+    top: 60px; 
+    left: 47%; 
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+
+}
+
+.Resumtext{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:space-evenly ;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.Resumtextleft  {
+   
+    width: 47%;
+}
+.Resumtextright{
+    width: 47%;
+
+}
+.lineleft{
+    width: 47%;
+
+
+}
+.lineright{
+    width: 47%;
+
+}
+.ms{
+    margin-top: 4%;
+}
+
+.retex{
+    
+    width: 95%;
+}
+.retex h3 {
+    font-size: 25px;
+    color: #212529;
+    padding-bottom: 10px;
+    
+    
+}
+.retecchiled{
+    border: 1px solid #eaeaea;
+    padding: 25px ;
+    
+}
+.retecchiled h5 {
+    color: #fff;
+    background-color: #20c997;
+    width: 22%;
+    padding: 6px 5px 6px 13px ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.retecchiled h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.retecchiled h4{
+    color: #dc3545;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.retecchiled p{
+    color: #4c4d4d;
+    font-size: 16px;
+    line-height: 1.5;
+   
+}
+progress{
+    accent-color: #20c997 ;
+    width: 100%;
+    color: #eaeaea !important;
+    /* background-color: #e9ecef;
+    border-radius: 0.25rem; */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eaeaea !important;
+  }
+
+.retex .ib{
+    display: inline-block;
+    width: 69%;
+    color: #252b33;
+}
+.retex .ic{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    color: #252b33;
+}
+
+.btndowlod {
+    text-align: center;
+    margin-top:5% ;
+    margin-bottom:7% ;
+     
+}
+.xx{
+    margin-top: 10px;
+}
+.btndowlod .btd2{
+    border-radius: 25px;
+    padding: 12px  35px;
+    border:#6c757d 2px solid ;
+ 
+    
+}
+
+.btndowlod a{
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.btndowlod .btd2:hover{
+    background-color: #6c757d;
+    color: #fff;
+}
+.MyWork{
+    background-color: #f8f9fa;
+}
+
+.size4{
+    
+    height: 40%; 
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size4 p{
+    font-size: 120px;
+    text-align: center;
+    color: #eaeaea;
+    font-weight: 600;
+  
+}
+
+.headerall4{
+    background-color: rgba(0, 0,#dbe0e0, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.headerall4 h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    margin-top: 17px;  
+    
+}
+.headerall4 h2::after{
+    content: "";
+    position: absolute;
+    top: 60px; 
+    left: 47%; 
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+
+}
+
+.textmywork{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ .listmywork{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.listmywork ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.listmywork ul li{
+    list-style: none;
+
+}
+.listmywork ul a{
+    text-decoration: none;
+    color: #4c4d4d;
+    
+} 
+.listmywork ul li a.tmy1{
+    color: #20c997;
+}
+.listmywork ul a:hover{
+    color: #20c997;
+}
+
+
+.seven{
+    display: flex; 
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+     padding-bottom: 2%;  
+    
+}
+.part {  
+    width: 31%;
+    
+
+}
+
+.myphotos{
+    position: relative;
+    overflow: hidden
+    
+}
+
+.layermy{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    opacity:0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.myphotos:hover .layermy{
+    opacity: 1;
+    transition: transform 1s ;
+   
+}
+.myphotos:hover img{
+     transform: scale(1.1);  
+   
+}
+.inner{
+    margin: 20px 0;
+}
+ .inner img{
+    width: 100%;
+    transition: transform 1s ;
+   
+
+ }
+
+ .Client{
+   
+    margin-bottom: 8%;
+   
+ }
+.size5{
+    
+    height: 40%; 
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+.size5 p{
+    font-size: 120px;
+    text-align: center;
+    color: #eaeaea;
+    font-weight: 600;
+  
+}
+
+.headerall5{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.headerall5 h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    margin-top: 17px;
+    
+}
+.headerall5 h2::after{
+    content: "";
+    position: absolute;
+    top: 60px; 
+    left: 47%; 
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+
+}
+.textclient{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 8%;
+    
+
+}
+.clientleft{
+    display: flex;
+    flex-wrap: wrap;
+    width: 44%;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 4%;
+}
+.clientright{
+    display: flex;
+    flex-wrap: wrap;
+    width: 44%;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 4%;
+}
+.textclient img{
+    border-radius: 50%;
+    width: 20%;  
+    padding-right: 15px;
+}
+.textclient h4{
+    width: 60%;
+    height: 30px;
+    color: #252b33;
+    padding-top: 15px;
+
+}
+ h4 .line2{
+    color: #6c757d ;
+    line-height: 2;
+}
+.textclient p{
+    padding: 20px 0px;
+    color: #252b33;
+    font-family: 500;
+}
+.starsicon{
+    color: #f1c30d;
+   
+}
+
+.GETinTouch{
+    background-color: #f8f9fa;
+   
+}
+.size6{  
+    height: 40%;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size6 p{
+    font-size: 120px;
+    text-align: center;
+    color: #eaeaea;
+    font-weight: 600;
+  
+}
+
+.headerall6{
+    background-color: rgba(0, 0,#dbe0e0, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.headerall6 h2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #212529;
+    margin-top: 17px;  
+    
+}
+.headerall6 h2::after{
+    content: "";
+    position: absolute;
+    top: 60px; 
+    left: 47%; 
+    width: 70px;
+    height: 3px;
+    background-color: #20c997;
+
+}
+
+.getintouchtext{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.getintouchleft{
+    width: 25%;
+}
+.getintouchright{
+    width: 70%;
+ 
+}
+.getintouchleft h3{
+    color: #252b33;
+    font-size: 23px;
+}
+.getintouchleft p{
+    padding: 20px 0px;
+    font-size:17px ;
+    line-height: 2;
+
+}
+ .g6{
+    font-size:17px ;
+    line-height: 2;
+   
+}
+
+.g6 .fas{
+    color: #20c997;
+    font-size:18px;
+    padding-right: 10px;
+}
+.fm{
+    padding-top: 25px;
+}
+.getintouchright h3{
+    color: #252b33;
+    font-size: 23px;
+    margin-bottom: 25px;
+
+}
+.form{
+    width: 100%;
+  
+}
+.net{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    width: 100%;
+    
+    
+}
+.namex ,.emailx{
+    width: 48%;
+}
+.namex input{
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+.emailx input{
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.msgme{
+    width:100% ;
+    margin: 15px 0px;
+    border-radius: 5px;
+  
+}
+.msgme textarea{
+   margin-top: 10px;  
+   width: 100%;
+   
+
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+.btn2 .bbtt-download{
+    background-color: #20c997;
+    border-radius: 25px;
+    width: 25%;
+    padding: 13px  10px;
+    text-align: center;
+
+}
+.btn2-download{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+   
+    /* padding-left: 20px; */
+}
+
+  .btn2 .bbtt-download:hover{
+    background-color:#1baa80 ;
+}
+
+.end{
+    display: flex;
+    height:25%;
+}
+.end1{
+    width: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.fleft h5 a{
+    text-decoration: none;
+    color: #20c997;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fleft h5::after{
+    content: ". All Rights Reserved.";
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fleft h5::before{
+    content: "Copyright © 2021 ";
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+}
+.end2 {
+    
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row
+    
+  
+}
+
+.fright1 , .fright2{
+    width: 40%;
+}
+ .fright1 { 
+    border-right:1px solid #eaeaea ;
+    
+ }
+ .fright1 p a ,  .fright2 p a{
+    color: #212529;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .fright1 p a:hover , .fright2 p a:hover{
+    color: #20c997;
+ }
+.fright2 {
+   margin-left: 10px;
+}
+
+
+
+@media screen and (max-width:600px){
+
+    .navbar{
+        flex-direction: column;
+        
+    }
+    .navbar-list ul{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 130px;
+        
+
+    }
+    .navbar-logo{
+        text-align: center;
+    }
+    .size1{
+        width: 100%;
+        text-align: center;
+       
+     
+    }
+    .KnowMeMoretext{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .KnowMeMoretext1{
+        width: 100%;
+    }
+    .KnowMeMoretext2{
+        width: 100%;
+    }
+    .knowbuttom{
+        width: 100%;
+    }
+    .size2{
+        width: 100%;
+    }
+    .WhatIDoicon1{
+        width: 100%;
+    }
+    .size3{
+        width: 100%;
+    }
+    .Resumtextleft{
+        width:100%;
+    }
+        .Resumtextright{
+        width:100%;
+    }
+    .ms{
+        width: 100%;
+    }
+    .lineleft{
+        width: 98%;
+    }
+    .lineright{
+        width: 98%;
+    }
+    .size4{
+        width: 100%;
+    }
+    .listmywork{
+        width: 100%;
+    }
+    .part{
+        width: 100%;
+    }
+    .size5{
+        width:100%;
+    }
+
+    .clientleft{
+        width:100%;
+    }
+
+    .clientright{
+        width:100%;
+    }
+    .size6{
+        width: 100%;
+        text-align: center;
+    }
+    .textclient{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .getintouchtext{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .getintouchleft{
+        width:100%;
+    }
+
+    .getintouchright{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    .end{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .end1{
+        width:100%;
+    }
+    .end2{
+        width: 100%;
+    }
+    
+
+}@media screen and (min-width:610px) and (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        
+    }
+    .navbar-list ul{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 130px;
+        
+
+    }
+    .navbar-logo{
+        text-align: center;
+    }
+    .size1{
+        width: 100%;
+        text-align: center;
+    }
+    .KnowMeMoretext{
+        width:100%;
+    }
+
+    .KnowMeMoretext1{
+        width:100%;
+    }
+    .KnowMeMoretext2{
+        width: 100%;
+    }
+    .knowbuttom{
+        width:100%;
+    }
+    .size2{
+        width:100%;
+        text-align: center;
+    }
+    .WhatIDoicon1{
+        width:50%;
+    }
+    .size3{
+        width:100%;
+        text-align: center;
+    }
+    .Resumtextleft{
+        width:100%;
+    }
+    .Resumtextright{
+        width:100%;
+    }
+    .ms{
+        width: 100%;
+        text-align: center;
+    }
+    .lineleft{
+        width:50%;
+    }
+    .lineright{
+        width:50%;
+    }
+    .size4{
+        width:100%;
+        text-align: center;
+    }
+    .listmywork{
+        width:100%;
+        text-align: center;
+    }
+    .part{
+        width:50%;
+    }
+    .size5{
+        width:100%;
+        text-align: center;
+    }
+    .textclient{
+        width: 100%;
+    }
+    .clientleft{
+        width:100%;
+    }
+
+    .clientright{
+        width:100%;
+    }
+
+    .size6{
+        width:100%;
+        text-align: center;
+    }
+
+    .getintouchleft{
+        width:100%;
+    }
+
+    .getintouchright{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    .end{
+        width: 100%;
+    }
+    .end1{
+        width:100%;
+    }
+
+    .end2{
+        width: 100%;
+    }
+    
+
+}@media screen and (min-width:769px) and (max-width:992px){
+    .navbar{
+        flex-direction: column;
+        
+    }
+    .navbar-list ul{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 130px;
+        
+
+    }
+    .navbar-logo{
+        text-align: center;
+    }
+    .size1{
+        width: 100%;
+        text-align: center;
+    }
+  
+  
+    .KnowMeMoretext2{
+        width:33%;
+    }
+    .KnowMeMoretext1{
+        width: 65%;
+    }
+    .knowbuttom{
+        width: 70%;
+    }
+    .size2{
+        width:100%;
+        text-align: center;
+    }
+    .WhatIDoicon1{
+        width: 33.3%;
+    }
+    .size3{
+        width:100%;
+        text-align: center;
+    }
+
+    .Resumtextleft{
+        width: 50%;
+    }
+
+    .Resumtextright{
+        width: 50%;
+    }
+    .ms{
+        width: 100%;
+        
+    }
+    .lineleft{
+        width: 33.3%;
+    }
+
+    .lineright{
+        width: 33.3%;
+    }
+    .size4{
+        width: 100%;
+        text-align: center;
+    }
+    .listmywork{
+        width:100%;
+        text-align: center;
+    }
+    .part{
+        width: 31%;
+    }
+    .size5{
+        width:100%;
+        text-align: center;
+    }
+    .textclient{
+        width: 100%;
+    }
+
+    .clientleft{
+        width: 50%;
+    }
+
+    .clientright{
+        width: 50%;
+    }
+    .size6{
+        width: 100%;
+        text-align: center;
+    }
+
+    .getintouchleft{
+        width: 50%;
+    }
+
+    .getintouchright{
+        width:50%;
+    }
+   
+    .end1{
+        width: 50%;
+    }
+
+    .end2{
+        width:50%;
+    }
+
+
+
+
+
+    
+}@media screen and (min-width:993px) and (max-width:1200px){
+    .size1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .KnowMeMoretext1{
+        width:60%;
+    }
+    .KnowMeMoretext2{
+        width:35%;
+    }
+    .knowbuttom{
+        width:100%;
+    }
+    .size2{
+        width:100%;
+        text-align: center;
+    }
+    .WhatIDoicon1{
+        width:25%;
+    }
+    .size3{
+        width:100%;
+        text-align: center;
+    }
+    .Resumtextleft{
+        width:45%;
+    }
+
+    .Resumtextright{
+        width:45%;
+    }
+    .ms{
+        width: 100%;
+        
+    }
+    .lineleft{
+        width:45%;
+    }
+    .lineright{
+        width:45%;
+    }
+    .size4{
+        width:100%;
+        text-align: center;
+    }
+    .listmywork{
+        width:70%;
+    }
+    .part{
+        width:25%;
+    }
+    .size5{
+        width:100%;
+        text-align: center;
+    }
+    .clientleft{
+        width:45%;
+    }
+    .clientright{
+        width:48%;
+    }
+    .size6{
+        width:100%;
+        text-align: center;
+       
+
+    }
+    .getintouchleft{
+        width:30%;
+    }
+    .getintouchright{
+        width:60%;
+    }
+    .end1{
+        width:45%;
+    }
+
+    .end2{
+        width:45%;
+    }
+}
+
+
+
+
+
+
+ /* @media screen and (max-width:600px){
+    .textclient{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:610px) and (max-width:768px){
+    .textclient{
+        width:100%;
+    }
+}@media screen and (min-width:769px) and (max-width:992px){
+    .textclient{
+        width: 33.3%;
+    }
+}@media screen and (min-width:993px) and (max-width:1200px){
+    .textclient{
+        width:25%;
+    }
+} */
+
+
+
+
+/* 
+@media screen and (max-width:600px){
+    .getintouchtext{
+        width: 100%;
+    }
+    
+}@media screen and (min-width:610px) and (max-width:768px){
+    .getintouchtext{
+        width:50%;
+    }
+}@media screen and (min-width:769px) and (max-width:992px){
+    .getintouchtext{
+        width: 33.3%;
+    }
+}@media screen and (min-width:993px) and (max-width:1200px){
+    .getintouchtext{
+        width:25%;
+    }
+} */
+
+
+
+
+
